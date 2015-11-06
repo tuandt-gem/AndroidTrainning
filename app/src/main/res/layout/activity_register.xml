@@ -100,10 +100,12 @@
                 android:textColor="@android:color/holo_blue_dark"
                 android:textSize="@dimen/label_text_size" />
 
-            <ImageButton
+            <ImageView
+                android:id="@+id/register_avatar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
+                android:clickable="true"
                 android:src="@mipmap/avatar_default" />
         </RelativeLayout>
     </LinearLayout>
